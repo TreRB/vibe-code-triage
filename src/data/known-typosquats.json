@@ -1,0 +1,156 @@
+{
+  "_comment": "Known AI-hallucinated or typosquatted npm packages. Map of bad-name -> { real, severity, note }.",
+  "_version": "2026.04",
+  "packages": {
+    "react-supabase": {
+      "real": "@supabase/supabase-js",
+      "severity": "high",
+      "note": "AI commonly hallucinates a react-supabase wrapper. The legitimate name is @supabase/supabase-js."
+    },
+    "supabase-js": {
+      "real": "@supabase/supabase-js",
+      "severity": "high",
+      "note": "Missing @supabase/ scope. Unscoped supabase-js is not the official package."
+    },
+    "openai-node": {
+      "real": "openai",
+      "severity": "high",
+      "note": "Official OpenAI package is 'openai'. 'openai-node' has historically been squatted."
+    },
+    "anthropic-ai": {
+      "real": "@anthropic-ai/sdk",
+      "severity": "high",
+      "note": "Official package is @anthropic-ai/sdk. Unscoped anthropic-ai is not official."
+    },
+    "anthropic-sdk": {
+      "real": "@anthropic-ai/sdk",
+      "severity": "high",
+      "note": "Not the official Anthropic SDK."
+    },
+    "nextjs": {
+      "real": "next",
+      "severity": "high",
+      "note": "Next.js is published under 'next', not 'nextjs'."
+    },
+    "clerk-sdk": {
+      "real": "@clerk/nextjs",
+      "severity": "high",
+      "note": "Clerk publishes under @clerk/*. A bare 'clerk-sdk' is not official."
+    },
+    "clerk-nextjs": {
+      "real": "@clerk/nextjs",
+      "severity": "high",
+      "note": "Clerk publishes under @clerk/*. Unscoped clerk-nextjs is not the real package."
+    },
+    "stripe-node": {
+      "real": "stripe",
+      "severity": "high",
+      "note": "Official Stripe SDK is 'stripe'."
+    },
+    "stripe-sdk": {
+      "real": "stripe",
+      "severity": "high",
+      "note": "Official Stripe SDK is 'stripe'."
+    },
+    "axios-http": {
+      "real": "axios",
+      "severity": "high",
+      "note": "Official HTTP library is 'axios'."
+    },
+    "lodash-js": {
+      "real": "lodash",
+      "severity": "high",
+      "note": "Official is 'lodash'."
+    },
+    "react-router-dom-v6": {
+      "real": "react-router-dom",
+      "severity": "high",
+      "note": "Version suffix pulled into the package name — not a real package."
+    },
+    "tailwindcss-next": {
+      "real": "tailwindcss",
+      "severity": "high",
+      "note": "Official is 'tailwindcss'. 'tailwindcss-next' is a hallucination."
+    },
+    "shadcn-ui": {
+      "real": "shadcn",
+      "severity": "medium",
+      "note": "shadcn is not a runtime dep — it's a CLI. Seeing it pinned in package.json is suspicious."
+    },
+    "node-fetch-npm": {
+      "real": "node-fetch",
+      "severity": "high",
+      "note": "Official is 'node-fetch'."
+    },
+    "uuid-js": {
+      "real": "uuid",
+      "severity": "high",
+      "note": "Official is 'uuid'."
+    },
+    "express-js": {
+      "real": "express",
+      "severity": "high",
+      "note": "Official is 'express'."
+    },
+    "mongo-db": {
+      "real": "mongodb",
+      "severity": "high",
+      "note": "Official is 'mongodb' (no hyphen)."
+    },
+    "mongoose-js": {
+      "real": "mongoose",
+      "severity": "high",
+      "note": "Official is 'mongoose'."
+    },
+    "prisma-client": {
+      "real": "@prisma/client",
+      "severity": "high",
+      "note": "Prisma publishes under @prisma/*."
+    },
+    "drizzle-orm-js": {
+      "real": "drizzle-orm",
+      "severity": "high",
+      "note": "Official is 'drizzle-orm'."
+    },
+    "typescript-node": {
+      "real": "ts-node",
+      "severity": "high",
+      "note": "Official is 'ts-node'."
+    },
+    "dotenv-js": {
+      "real": "dotenv",
+      "severity": "high",
+      "note": "Official is 'dotenv'."
+    },
+    "zod-js": {
+      "real": "zod",
+      "severity": "high",
+      "note": "Official is 'zod'."
+    },
+    "chalk-cli": {
+      "real": "chalk",
+      "severity": "medium",
+      "note": "Official is 'chalk'."
+    },
+    "react-query-client": {
+      "real": "@tanstack/react-query",
+      "severity": "high",
+      "note": "React Query now lives at @tanstack/react-query."
+    },
+    "react-query": {
+      "real": "@tanstack/react-query",
+      "severity": "medium",
+      "note": "react-query is deprecated in favor of @tanstack/react-query (v4+)."
+    },
+    "vercel-analytics": {
+      "real": "@vercel/analytics",
+      "severity": "high",
+      "note": "Official is @vercel/analytics."
+    },
+    "axios-retry-plus": {
+      "real": "axios-retry",
+      "severity": "high",
+      "note": "Official is 'axios-retry'."
+    }
+  }
+}

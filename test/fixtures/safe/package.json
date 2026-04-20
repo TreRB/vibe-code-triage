@@ -1,0 +1,16 @@
+{
+  "name": "safe-fixture",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@supabase/supabase-js": "2.45.0",
+    "openai": "4.0.0",
+    "@clerk/nextjs": "5.0.0",
+    "@anthropic-ai/sdk": "0.27.0",
+    "zod": "3.23.8",
+    "tailwindcss": "3.4.0"
+  }
+}
